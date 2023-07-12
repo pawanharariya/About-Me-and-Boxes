@@ -1,11 +1,6 @@
 <resources>
     <string name="app_name">About Me</string>
-    <string name="name">Pawan Singh Harariya</string>
     <string name="yellow_star">Yellow Star</string>
-    <string name="bio">I am an experienced Software Developer with a demonstrated history of working in the computer software industry. I have solid foundation in Java, Android SDK, XML and SQL. I am also familiar with AWS CDK, Alexa Skills Kit(ASK), Alexa Presentation Language(APL) and Git. I also have strong understanding of Data Structures and Algorithms and love to solve problems on Leetcode.
-        \n\nI have completed my engineering with an Integrated Dual Degree focused in Electronics and Communications Engineering from National Institute of Technology, Hamirpur in 2023. I have done internship at Amazon, and during a period of 6-months I worked on the cloud infrastructure of the Clock Service of Alexa Multimodal Devices and aided in successful launch of Echo Show 5 3rd Gen.
-        \n\nApart from programming, I love playing table tennis and doing cardistry.
-    </string>
     <string name="done">Done</string>
     <string name="nickname_hint">Give me a nice name!</string>
 </resources>
