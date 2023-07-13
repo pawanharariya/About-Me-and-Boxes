@@ -66,3 +66,26 @@ View Binding is similar to Data Binding with less features. View binding also pr
 * We can give `id` to ScrollView, this gives the Android system an identifier for the view and it helps in preserving the scroll position when the device screen is rotated.
 * Use `start` and `end` for giving margins and padding instead of `left` and `right`, because `start` and `end` adapt to right to left screens, for RTL languages like Arabic.
 * We can specify `inputType` for EditText, which makes Android System to automatically validate the input based on the inputType. For example, for age we can set `inputType` to `number` or for email address we can set it to `email`.
+
+
+# App 2 - Boxes #
+This app uses constraint layout and its properties to create a screen that resembles art by the artist Piet Mondrian.
+
+### App Preview ###
+
+### More about the app ###
+
+## Constraint Layout ##
+A constraint is a connection or alignment to another UI element, to the parent layout, or to an invisible guideline. Following are few advantages of a Constraint Layout:
+1. It makes layouts responsive to screens and resolutions.
+2. Results in flatter view hierarchy.
+3. Optimised for layout out its views.   
+ ### Types of constraints ###
+ 1. **Fixed Constraint** - They are represented by a straight line. It is defined by specific value and is commonly used for margins.
+ 2. **Wrap content Constraint** - They are represented by line of chevrons (>>>>>). It expand only as much as required to contain its contents.
+ 3. **Zig-Zag Constraint** - It is used for match constraints. More the matching constraints more the layout can adapt to different screen sizes and orientation.
+
+### Properties of Constraint Layout ###
+1. **Bias** - It provides preference or weight to a constraint.
+2. **Ratio** - It is used to specify width and height as ratio of each other. To use it, first contraint either width or height and set the other dimension to 0dp. 0dp specifies that it will be calculated. Use `layout_constraintDimensionRatio` attribute to specify width to height ratio.
+3. **Chaining** - It links set of views horizontally or vertically and they behave as a group. To create a chain just connect the views in both direction. Chain can used to spread the elements equally and this can be more controlled using weight and bias. It also has other options like spread chain, packed chain and spread inside chain.
