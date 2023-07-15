@@ -69,23 +69,26 @@ View Binding is similar to Data Binding with less features. View binding also pr
 
 
 # App 2 - Boxes #
-This app uses constraint layout and its properties to create a screen that resembles art by the artist Piet Mondrian.
+This app uses constraint layout and its properties to create a screen and the user can click the boxes on the screen to color them. The layout is made such that it remains responsive with changes in screen orientation.
 
 ### App Preview ###
-
-### More about the app ###
+![colorBoxesPreview1](https://github.com/pawanharariya/About-Me-and-Boxes/assets/43620548/ed4e63cc-53d0-46b4-a0dd-fa6a901de96f)
+![colorBoxesPreview2](https://github.com/pawanharariya/About-Me-and-Boxes/assets/43620548/e299e671-ddbb-4346-95b1-9698a49fb6a2)
 
 ## Constraint Layout ##
 A constraint is a connection or alignment to another UI element, to the parent layout, or to an invisible guideline. Following are few advantages of a Constraint Layout:
 1. It makes layouts responsive to screens and resolutions.
 2. Results in flatter view hierarchy.
-3. Optimised for layout out its views.   
- ### Types of constraints ###
- 1. **Fixed Constraint** - They are represented by a straight line. It is defined by specific value and is commonly used for margins.
- 2. **Wrap content Constraint** - They are represented by line of chevrons (>>>>>). It expand only as much as required to contain its contents.
- 3. **Zig-Zag Constraint** - It is used for match constraints. More the matching constraints more the layout can adapt to different screen sizes and orientation.
+3. Optimised for laying out its views.   
 
-### Properties of Constraint Layout ###
+
+## Types of constraints ##
+ 1. **Fixed Constraint** - It is represented by a straight line. It is defined by a specific value and is commonly used for margins.
+ 2. **Wrap content Constraint** - It is represented by line of chevrons (>>>>>). It expand only as much as required to contain its contents.
+ 3. **Zig-Zag Constraint** - It is used to match constraints relative to other views. More the matching constraints, more the layout can adapt to different screen sizes and orientation.
+
+## Properties of Constraint Layout ##
 1. **Bias** - It provides preference or weight to a constraint.
-2. **Ratio** - It is used to specify width and height as ratio of each other. To use it, first contraint either width or height and set the other dimension to 0dp. 0dp specifies that it will be calculated. Use `layout_constraintDimensionRatio` attribute to specify width to height ratio.
-3. **Chaining** - It links set of views horizontally or vertically and they behave as a group. To create a chain just connect the views in both direction. Chain can used to spread the elements equally and this can be more controlled using weight and bias. It also has other options like spread chain, packed chain and spread inside chain.
+2. **Ratio** - It is used to specify width and height as ratio of each other. To use it, first constraint either width or height and set the other dimension to 0dp. 0dp specifies that it will be calculated. Use `layout_constraintDimensionRatio` attribute to specify width to height ratio.
+3. **Chaining** - It links set of views horizontally or vertically and then they behave as a group. To create a chain just connect the views in both direction. Chain can used to spread the elements equally and this can be more controlled using weight and bias. It also has other options like spread chain, packed chain and spread inside chain.
+4. **BaseLine Constraint** - It contrainsts the bottow/baseline of elements to each other. It is helpful to align elements with text, when the fonts are differently sized.
